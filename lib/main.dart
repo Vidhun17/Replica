@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Image and Text Example',
       home: Scaffold(
-        body: Container(
-          color: Colors.blue, // Background color
+        backgroundColor:const Color(0xff4874fc),
+        body:Container(// Background color
           child: Padding(
             padding: const EdgeInsets.only(top: 100),
             child: Stack(
